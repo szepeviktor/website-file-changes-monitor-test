@@ -1,0 +1,22 @@
+# Start command: composer update --classmap-authoritative && vendor/bin/phpstan analyze
+
+includes:
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+parameters:
+    level: max
+    paths:
+        - %currentWorkingDirectory%/includes/
+    excludes_analyse:
+        - %currentWorkingDirectory%/includes/admin/views/
+    autoload_files:
+        # Missing constants, function and class stubs
+        - %currentWorkingDirectory%/tests/bootstrap.php
+        # Procedural code
+        - %currentWorkingDirectory%/includes/wfcm-functions.php
+    autoload_directories:
+        - %currentWorkingDirectory%/includes/
+    ignoreErrors:
+        # Uses func_get_args()
+        - '#^Function apply_filters invoked with [34567] parameters, 2 required\.$#'
+        - '#^Function add_query_arg invoked with [123] parameters?, 0 required\.$#'
