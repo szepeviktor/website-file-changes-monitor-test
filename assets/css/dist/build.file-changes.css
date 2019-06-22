@@ -1,0 +1,101 @@
+/**
+ * File Changes Styles
+ */
+#adminmenu #toplevel_page_wfcm-file-changes a.wp-has-current-submenu .update-plugins {
+  background-color: #ea683c; }
+
+.tablenav .actions {
+  padding: 0;
+  margin: 3px 0 9px; }
+
+.tablenav .tablenav-pages .button,
+.tablenav .tablenav-pages .tablenav-pages-navspan,
+.tablenav .tablenav-pages .paging-input {
+  margin-left: 4px; }
+
+.tablenav-pages .current-page {
+  width: 30px; }
+  .tablenav-pages .current-page::-webkit-inner-spin-button, .tablenav-pages .current-page::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+            appearance: none;
+    margin: 0; }
+
+.wp-list-table .column-event-name {
+  width: 20%; }
+
+.wp-list-table .column-content-type {
+  width: 12%; }
+
+.wp-list-table .column-event-action {
+  width: 12%; }
+
+.wp-list-table .column-event-exclude {
+  width: 14%; }
+
+.wp-list-table .column-event-content {
+  width: 25px; }
+
+.wp-list-table td .content-type {
+  display: inline-block;
+  width: 100px;
+  color: #fff;
+  padding: 2px;
+  text-align: center; }
+
+.wp-list-table td .directory {
+  background: #35ad68; }
+
+.wp-list-table td .file {
+  background: #a81cb9; }
+
+.wp-list-table td .btn-event-content {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0; }
+  .wp-list-table td .btn-event-content:focus {
+    outline: 0; }
+  .wp-list-table td .btn-event-content span {
+    font-size: 23px;
+    width: 23px;
+    height: 23px; }
+
+.wfcm-modal-header {
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #efefef;
+  padding: 0 16px;
+  margin: 0 -16px;
+  margin-bottom: 16px;
+  height: 60px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .wfcm-modal-header h2 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle; }
+  .wfcm-modal-header .logo {
+    display: inline-block;
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 5px; }
+  .wfcm-modal-header .button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    padding: 0; }
+
+.wfcm-modal-body {
+  max-height: 500px; }
+
+.wfcm-modal-body--scrollable {
+  overflow-y: scroll; }
+
