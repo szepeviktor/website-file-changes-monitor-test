@@ -119,4 +119,4 @@ class WFCM_Admin_Themes {
 	}
 }
 
-new WFCM_Admin_Themes();
+//new WFCM_Admin_Themes();

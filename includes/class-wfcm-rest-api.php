@@ -185,8 +185,8 @@ class WFCM_REST_API {
 	/**
 	 * REST API callback for fetching created file events.
 	 *
-	 * @param WP_REST_Request $rest_request - REST request object.
-	 * @return WP_Error|string - JSON string of events.
+	 * @param \WP_REST_Request $rest_request REST request object.
+	 * @return \WP_Error|\WP_REST_Response JSON string of events.
 	 */
 	public function get_events( $rest_request ) {
 		// Get event params from request object.
@@ -318,4 +318,4 @@ class WFCM_REST_API {
 	}
 }
 
-new WFCM_REST_API();
+//new WFCM_REST_API();

@@ -121,4 +121,4 @@ class WFCM_Admin_Plugins {
 	}
 }
 
-new WFCM_Admin_Plugins();
+//new WFCM_Admin_Plugins();

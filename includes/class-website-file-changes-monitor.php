@@ -24,7 +24,7 @@ final class Website_File_Changes_Monitor {
 	/**
 	 * Single instance of the plugin.
 	 *
-	 * @var Website_File_Changes_Monitor
+	 * @var null|Website_File_Changes_Monitor
 	 */
 	protected static $instance = null;
 

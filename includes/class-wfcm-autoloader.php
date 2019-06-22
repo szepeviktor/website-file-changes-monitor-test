@@ -80,4 +80,4 @@ class WFCM_Autoloader {
 	}
 }
 
-new WFCM_Autoloader();
+//new WFCM_Autoloader();

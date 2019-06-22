@@ -20,7 +20,7 @@ class WFCM_Monitor {
 	/**
 	 * Sensor Instance.
 	 *
-	 * @var WFCM_Monitor
+	 * @var null|WFCM_Monitor
 	 */
 	protected static $instance = null;
 
@@ -1247,4 +1247,4 @@ class WFCM_Monitor {
 	}
 }
 
-wfcm_get_monitor();
+//wfcm_get_monitor();

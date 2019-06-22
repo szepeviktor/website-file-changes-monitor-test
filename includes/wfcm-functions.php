@@ -277,7 +277,7 @@ function wfcm_get_events_for_js( $events ) {
 
 	if ( ! empty( $events ) && is_array( $events ) ) {
 		foreach ( $events as $event ) {
-			if ( ! $event instanceof WFCM_Event ) {
+			if ( ! $event instanceof WFCM_Event_Directory ) {
 				continue;
 			}
 

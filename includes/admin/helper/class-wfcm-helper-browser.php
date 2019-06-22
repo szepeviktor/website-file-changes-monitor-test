@@ -632,7 +632,7 @@ class WFCM_Helper_Browser {
 	 * Check to see if the specific browser is valid
 	 *
 	 * @param string $browser_name - Browser name.
-	 * @return True if the browser is the specified browser
+	 * @return bool If the browser is the specified browser.
 	 */
 	public function isBrowser( $browser_name ) {
 		return 0 === strcasecmp( $this->_browser_name, trim( $browser_name ) );

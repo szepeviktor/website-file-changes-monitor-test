@@ -81,4 +81,4 @@ class WFCM_Admin_System {
 	}
 }
 
-new WFCM_Admin_System();
+//new WFCM_Admin_System();

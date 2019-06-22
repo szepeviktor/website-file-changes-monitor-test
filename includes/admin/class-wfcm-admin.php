@@ -128,4 +128,4 @@ class WFCM_Admin {
 	}
 }
 
-new WFCM_Admin();
+//new WFCM_Admin();

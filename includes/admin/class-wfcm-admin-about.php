@@ -111,11 +111,11 @@ class WFCM_Admin_About {
 
 		// Get theme info.
 		$theme_data   = wp_get_theme();
-		$theme        = $theme_data->Name . ' ' . $theme_data->Version; // phpcs:ignore
-		$parent_theme = $theme_data->Template; // phpcs:ignore
+		$theme        = $theme_data->name . ' ' . $theme_data->version; // phpcs:ignore
+		$parent_theme = $theme_data->template; // phpcs:ignore
 		if ( ! empty( $parent_theme ) ) {
 			$parent_theme_data = wp_get_theme( $parent_theme );
-			$parent_theme      = $parent_theme_data->Name . ' ' . $parent_theme_data->Version; // phpcs:ignore
+			$parent_theme      = $parent_theme_data->name . ' ' . $parent_theme_data->version; // phpcs:ignore
 		}
 
 		// Language information.

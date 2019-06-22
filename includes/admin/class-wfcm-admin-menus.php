@@ -148,4 +148,4 @@ class WFCM_Admin_Menus {
 	}
 }
 
-new WFCM_Admin_Menus();
+//new WFCM_Admin_Menus();

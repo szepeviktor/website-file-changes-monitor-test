@@ -160,9 +160,11 @@ class WFCM_Admin_Settings {
 			$directory = untrailingslashit( $directory );
 		}
 
-		if ( ! in_array( $directory, $server_dirs, true ) ) {
-			return $directory;
+		if ( in_array( $directory, $server_dirs, true ) ) {
+			return '';
 		}
+
+		return $directory;
 	}
 
 	/**

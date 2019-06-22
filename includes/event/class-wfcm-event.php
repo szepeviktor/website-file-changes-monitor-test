@@ -135,9 +135,9 @@ abstract class WFCM_Event {
 	 *********************************************************/
 
 	/**
-	 * Set event id.
+	 * Set event ID.
 	 *
-	 * @param string $id - Event id.
+	 * @param int $id Event ID.
 	 */
 	public function set_event_id( $id ) {
 		$this->id = $id;
